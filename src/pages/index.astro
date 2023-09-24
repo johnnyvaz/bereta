@@ -1,20 +1,14 @@
 ---
+import ContentMedia from '../components/ContentMedia.astro';
 import DefaultLayout from '../layouts/DefaultLayout.astro'
 ---
 
 <DefaultLayout title="Abadia Neves Bereta">
-  <section class="my-12">
-    <div class="container">
+    <ContentMedia imgSrc="/logo-deusa-da-justica.jpeg" reverseImg={true}>
       <h1>Abadia Neves Bereta</h1>
-      <h6>Renomada advogada criminalista, oferece seus serviços de excelência, trazendo expertise e dedicação incomparáveis para a defesa dos direitos de seus clientes perante a lei.</h6>
-    </div>
-  </section>
-  <section class="my-12">
-    <div class="space-content container">
-      <p class="text-2xl">Advogada Criminalista.</p>
+      <h2>Advogada Criminalista.</h2>
       <p class="text-2xl">Rua Floriano Peixoto, 2079 - Centro</p>
       <p class="text-2xl">Franca - SP</p>
       <a class="button" href="cel:16992818910" >Contato 🚀 : 16 99281-8910</a>
-    </div>
-  </section>
+    </ContentMedia>  
 </DefaultLayout>
